@@ -4,6 +4,7 @@ import DataBinding from './data-Binding/DataBinding'
 import DisplayImage from './display-image/DisplayImage'
 import Demo1ConditionalOperator from './Conditional Operator/Demo1ConditionalOperator'
 import IfElseDemo2 from './Conditional Operator/IfElseDemo2'
+import LogicalAndOperator from './Logical &&/LogicalAndOperator'
 
 
 export default function Center() {
@@ -14,7 +15,10 @@ export default function Center() {
     {/* <DisplayImage/> */}
 
  {/* <Demo1ConditionalOperator /> */}
-<IfElseDemo2 />
+{/* <IfElseDemo2 /> */}
+
+        <LogicalAndOperator/>
+
     </>
   )
 }
