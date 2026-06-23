@@ -5,6 +5,7 @@ import DisplayImage from './display-image/DisplayImage'
 import Demo1ConditionalOperator from './Conditional Operator/Demo1ConditionalOperator'
 import IfElseDemo2 from './Conditional Operator/IfElseDemo2'
 import LogicalAndOperator from './Logical &&/LogicalAndOperator'
+import ListOfItem from './List of Items/ListOfItem'
 
 
 export default function Center() {
@@ -12,13 +13,13 @@ export default function Center() {
     <>
       {/* <UseBootstrapIcon/>
       <DataBinding/> */}
-    {/* <DisplayImage/> */}
+      {/* <DisplayImage/> */}
 
- {/* <Demo1ConditionalOperator /> */}
-{/* <IfElseDemo2 /> */}
+      {/* <Demo1ConditionalOperator /> */}
+      {/* <IfElseDemo2 /> */}
 
-        <LogicalAndOperator/>
-
+      {/* <LogicalAndOperator /> */}
+        <ListOfItem/>
     </>
   )
 }
